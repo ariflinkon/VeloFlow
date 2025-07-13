@@ -60,3 +60,59 @@ main {
   background: #fff;
   border-top: 1px solid #eee;
 }
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.hero {
+  padding: 3rem 1rem;
+  background: #e3f2fd;
+  text-align: center;
+  border-radius: 12px;
+}
+.pricing {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.pricing-tiers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.tier {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  width: 250px;
+}
+.testimonials {
+  margin-top: 4rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.testimonial-list {
+  display: grid;
+  gap: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #007bff;
+  padding-left: 1rem;
+}
